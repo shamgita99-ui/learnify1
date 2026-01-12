@@ -1,4 +1,3 @@
-/* ---------------- General Body & Fonts ---------------- */
 body {
     font-family: Arial;
     margin: 0;
@@ -25,13 +24,13 @@ nav a {
     font-weight: bold;
 }
 
-/* ---------------- Hero Section ---------------- */
+/* Hero Section */
 .hero {
     padding: 40px;
     text-align: center;
 }
 
-/* ---------------- Features Section ---------------- */
+/* Features Section */
 .features {
     display: flex;
     justify-content: center;
@@ -55,21 +54,7 @@ nav a {
     box-shadow: 0 8px 20px rgba(11, 94, 215, 0.3);
 }
 
-/* ---------------- Content Section ---------------- */
-.content {
-    padding: 30px;
-    text-align: center;
-}
-
-/* ---------------- Footer ---------------- */
-footer {
-    background: #0b5ed7;
-    color: white;
-    text-align: center;
-    padding: 10px;
-}
-
-/* ---------------- Bio Data Card ---------------- */
+/* Bio Data Section */
 .biodata-section {
     padding: 40px 20px;
     text-align: center;
@@ -103,7 +88,7 @@ footer {
     box-shadow: 0 8px 20px rgba(11, 94, 215, 0.3);
 }
 
-/* ---------------- Bio Data URL Button ---------------- */
+/* Bio Data URL Button */
 .biodata-card .url-btn {
     display: inline-block;
     background-color: #0b5ed7;   
@@ -119,3 +104,12 @@ footer {
 .biodata-card .url-btn:hover {
     background-color: #3390ff;  
 }
+
+/* Footer */
+footer {
+    background: #0b5ed7;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
