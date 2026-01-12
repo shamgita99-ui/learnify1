@@ -1,119 +1,59 @@
-/* General Body */
 body {
-  font-family: Arial;
-  margin: 0;
-  background: #f4f9ff;
+    font-family: Arial;
+    margin: 0;
+    background: #f4f9ff;
 }
 
-/* Header */
 header {
-  background: #0b5ed7;
-  color: white;
-  padding: 20px;
-  text-align: center;
+    background: #0b5ed7;
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
 
-/* Navigation */
 nav {
-  background: #ffffff;
-  text-align: center;
-  padding: 10px;
+    background: #ffffff;
+    text-align: center;
+    padding: 10px;
 }
 
 nav a {
-  margin: 10px;
-  color: #0b5ed7;
-  text-decoration: none;
-  font-weight: bold;
+    margin: 10px;
+    color: #0b5ed7;
+    text-decoration: none;
+    font-weight: bold;
 }
 
-/* Hero */
 .hero {
-  padding: 40px;
-  text-align: center;
+    padding: 40px;
+    text-align: center;
 }
 
-/* Features Section */
 .features {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  padding: 20px;
-  flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
 }
 
 .box {
-  background: white;
-  padding: 20px;
-  border-radius: 8px;
-  width: 150px;
-  text-align: center;
-  cursor: pointer;
-  transition: transform 0.3s, box-shadow 0.3s;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 150px;
+    text-align: center;
 }
 
-.box:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 8px 20px rgba(11, 94, 215, 0.3);
+.content {
+    padding: 30px;
+    text-align: center;
 }
 
-/* Bio Data Section */
-.biodata-section {
-  padding: 40px 20px;
-  text-align: center;
-}
-
-.biodata-section h2 {
-  font-size: 28px;
-  color: #0b5ed7;
-  margin-bottom: 30px;
-}
-
-.biodata-card {
-  background: white;
-  border: 2px solid #0b5ed7;
-  border-radius: 12px;
-  width: 320px;
-  padding: 25px;
-  margin: 0 auto;
-  text-align: left;
-  font-size: 16px;
-  line-height: 1.6;
-  transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.biodata-card p {
-  margin: 8px 0;
-}
-
-.biodata-card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 8px 20px rgba(11, 94, 215, 0.3);
-}
-
-/* Bio Data URL Button */
-.biodata-card .url-btn {
-  display: inline-block;
-  background-color: #0b5ed7;   
-  color: white;
-  padding: 8px 15px;
-  border-radius: 6px;
-  text-decoration: none;
-  font-weight: bold;
-  margin-top: 10px;
-  transition: background 0.3s;
-}
-
-.biodata-card .url-btn:hover {
-  background-color: #3390ff;  
-}
-
-/* Footer */
 footer {
-  background: #0b5ed7;
-  color: white;
-  text-align: center;
-  padding: 10px;
+    background: #0b5ed7;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
 
 
