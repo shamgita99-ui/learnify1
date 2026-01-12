@@ -5,17 +5,16 @@ body {
 }
 
 header {
-    background: #0b5ed7;
+    background: #ff69b4; 
     color: white;
     padding: 20px;
     text-align: center;
 }
 
-nav {
-    background: #ffffff;
-    text-align: center;
-    padding: 10px;
+nav a {
+    color: #ff69b4; 
 }
+
 
 nav a {
     margin: 10px;
@@ -55,3 +54,4 @@ footer {
     text-align: center;
     padding: 10px;
 }
+
