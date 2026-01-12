@@ -1,42 +1,73 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Bio Data | Learnify</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #f4f9ff;
+}
 
-<header><h1>Student Bio Data</h1></header>
+header {
+    background: #0b5ed7;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
 
-<nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="courses.html">Courses</a>
-    <a href="resources.html">Resources</a>
-    <a href="gallery.html">Gallery</a>
-    <a href="contact.html">Contact</a>
-</nav>
+nav {
+    background: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
 
-<section class="biodata-section">
-    <h2>Bio Data Details</h2>
-    <div class="biodata-card">
-        <p><strong>Name:</strong> Saksham Verma</p>
-        <p><strong>Class:</strong> X</p>
-        <p><strong>Section:</strong> A</p>
-        <p><strong>Roll No:</strong> 12</p>
-        <p><strong>House:</strong> Blue House</p>
-        <p><strong>ID:</strong> 2026CBSE1234</p>
-        <p><strong>Subjects:</strong> Computer Applications, Mathematics, Science, English</p>
-        <p>
-            <strong>Bio Data URL:</strong> 
-            <a href="https://example.com/saksham-biodata" target="_blank">https://example.com/saksham-biodata</a>
-        </p>
-    </div>
-</section>
+nav a {
+    margin: 10px;
+    color: #0b5ed7;
+    text-decoration: none;
+    font-weight: bold;
+}
 
-<footer><p>© Learnify</p></footer>
+.hero {
+    padding: 40px;
+    text-align: center;
+}
 
-</body>
-</html>
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
 
+.box {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 150px;
+    text-align: center;
+}
+
+.content {
+    padding: 30px;
+    text-align: center;
+}
+
+footer {
+    background: #0b5ed7;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.biodata-card .url-btn {
+    display: inline-block;
+    background-color: #0b5ed7;   /* deep blue */
+    color: white;
+    padding: 8px 15px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: background 0.3s;
+}
+
+.biodata-card .url-btn:hover {
+    background-color: #3390ff;   /* lighter blue on hover */
+}
