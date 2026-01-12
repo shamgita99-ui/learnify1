@@ -1,58 +1,42 @@
-body {
-    font-family: Arial;
-    margin: 0;
-    background: #f4f9ff;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bio Data | Learnify</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
 
-header {
-    background: #0b5ed7;
-    color: white;
-    padding: 20px;
-    text-align: center;
-}
+<header><h1>Student Bio Data</h1></header>
 
-nav {
-    background: #ffffff;
-    text-align: center;
-    padding: 10px;
-}
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="courses.html">Courses</a>
+    <a href="resources.html">Resources</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact</a>
+</nav>
 
-nav a {
-    margin: 10px;
-    color: #0b5ed7;
-    text-decoration: none;
-    font-weight: bold;
-}
+<section class="biodata-section">
+    <h2>Bio Data Details</h2>
+    <div class="biodata-card">
+        <p><strong>Name:</strong> Saksham Verma</p>
+        <p><strong>Class:</strong> X</p>
+        <p><strong>Section:</strong> A</p>
+        <p><strong>Roll No:</strong> 12</p>
+        <p><strong>House:</strong> Blue House</p>
+        <p><strong>ID:</strong> 2026CBSE1234</p>
+        <p><strong>Subjects:</strong> Computer Applications, Mathematics, Science, English</p>
+        <p>
+            <strong>Bio Data URL:</strong> 
+            <a href="https://example.com/saksham-biodata" target="_blank">https://example.com/saksham-biodata</a>
+        </p>
+    </div>
+</section>
 
-.hero {
-    padding: 40px;
-    text-align: center;
-}
+<footer><p>© Learnify</p></footer>
 
-.features {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    padding: 20px;
-}
-
-.box {
-    background: white;
-    padding: 20px;
-    border-radius: 8px;
-    width: 150px;
-    text-align: center;
-}
-
-.content {
-    padding: 30px;
-    text-align: center;
-}
-
-footer {
-    background: #0b5ed7;
-    color: white;
-    text-align: center;
-    padding: 10px;
-}
+</body>
+</html>
 
