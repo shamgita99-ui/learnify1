@@ -54,4 +54,218 @@ footer {
     text-align: center;
     padding: 10px;
 }
+/* Courses Section Design */
+.courses-section {
+    padding: 40px;
+    text-align: center;
+    background: #ffe4f1; /* soft pink background */
+}
+
+.courses-section h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    color: #ff69b4;
+    margin-bottom: 30px;
+}
+
+.courses-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.course-card {
+    background: white;
+    border: 2px solid #ff69b4;
+    border-radius: 12px;
+    padding: 25px;
+    width: 220px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    font-family: 'Poppins', sans-serif;
+}
+
+.course-card h3 {
+    color: #ff69b4;
+    margin-bottom: 15px;
+}
+
+.course-card p {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+/* Hover Effect */
+.course-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(255, 105, 180, 0.3);
+}
+/* Contact Section Design */
+.contact-section {
+    padding: 40px;
+    text-align: center;
+    background: #ffe4f1; /* soft pink background */
+}
+
+.contact-section h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    color: #ff69b4;
+    margin-bottom: 30px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.contact-card {
+    background: white;
+    border: 2px solid #ff69b4;
+    border-radius: 12px;
+    padding: 25px;
+    width: 220px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact-card h3 {
+    color: #ff69b4;
+    margin-bottom: 15px;
+}
+
+.contact-card p {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+/* Hover Effect */
+.contact-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(255, 105, 180, 0.3);
+}
+/* Gallery Section Design */
+.gallery-section {
+    padding: 40px;
+    text-align: center;
+    background: #ffe4f1; /* soft pink background */
+}
+
+.gallery-section h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    color: #ff69b4;
+    margin-bottom: 30px;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.gallery-card {
+    background: white;
+    border: 2px solid #ff69b4;
+    border-radius: 12px;
+    width: 250px;
+    padding: 15px;
+    font-family: 'Poppins', sans-serif;
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+}
+
+.gallery-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.gallery-card h3 {
+    color: #ff69b4;
+    margin-bottom: 10px;
+}
+
+.gallery-card p {
+    color: #333;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+/* Hover Effect */
+.gallery-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(255, 105, 180, 0.3);
+}
+/* Resources Section Design */
+.resources-section {
+    padding: 40px;
+    text-align: center;
+    background: #ffe4f1; /* soft pink background */
+}
+
+.resources-section h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    color: #ff69b4;
+    margin-bottom: 30px;
+}
+
+.resources-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.resource-card {
+    background: white;
+    border: 2px solid #ff69b4;
+    border-radius: 12px;
+    width: 240px;
+    padding: 25px;
+    font-family: 'Poppins', sans-serif;
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+}
+
+.resource-card h3 {
+    color: #ff69b4;
+    margin-bottom: 15px;
+}
+
+.resource-card p {
+    color: #333;
+    font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 15px;
+}
+
+/* Download Button */
+.download-btn {
+    text-decoration: none;
+    background-color: #ff69b4;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: background 0.3s;
+}
+
+.download-btn:hover {
+    background-color: #ff85c1;
+}
+
+/* Hover Effect on Cards */
+.resource-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(255, 105, 180, 0.3);
+}
 
