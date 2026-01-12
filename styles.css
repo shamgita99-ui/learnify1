@@ -1,204 +1,58 @@
-/* ---------------- General Body & Fonts ---------------- */
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial;
     margin: 0;
-    background: #f4f9ff; /* very light blue background */
-    color: #333;
-}
-
-/* ---------------- Header ---------------- */
-header {
-    background: #0b5ed7; /* deep blue */
-    color: white;
-    padding: 20px;
-    text-align: center;
-}
-
-header h1 {
-    margin: 0;
-    font-size: 36px;
-}
-
-header p {
-    margin: 5px 0 0 0;
-    font-size: 18px;
-}
-
-/* ---------------- Navigation ---------------- */
-nav {
-    background: white;
-    text-align: center;
-    padding: 10px 0;
-    border-bottom: 2px solid #0b5ed7;
-}
-
-nav a {
-    margin: 0 15px;
-    color: #0b5ed7;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 16px;
-    transition: color 0.3s;
-}
-
-nav a:hover {
-    color: #3390ff;
-}
-
-/* ---------------- Section Titles ---------------- */
-section h2 {
-    font-size: 32px;
-    color: #0b5ed7;
-    margin-bottom: 30px;
-    text-align: center;
-}
-
-/* ---------------- Card Containers ---------------- */
-.courses-section,
-.resources-section,
-.gallery-section,
-.contact-section {
-    padding: 40px 20px;
     background: #f4f9ff;
 }
 
-.courses-container,
-.resources-container,
-.gallery-container,
-.contact-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
-/* ---------------- Card Styles ---------------- */
-.course-card,
-.resource-card,
-.gallery-card,
-.contact-card {
-    background: white;
-    border: 2px solid #0b5ed7;
-    border-radius: 12px;
-    width: 240px;
+header {
+    background: #0b5ed7;
+    color: white;
     padding: 20px;
     text-align: center;
-    transition: transform 0.3s, box-shadow 0.3s;
 }
 
-/* Card Hover Effect */
-.course-card:hover,
-.resource-card:hover,
-.gallery-card:hover,
-.contact-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 8px 20px rgba(11, 94, 215, 0.3);
-}
-
-/* Card Headings */
-.course-card h3,
-.resource-card h3,
-.gallery-card h3,
-.contact-card h3 {
-    color: #0b5ed7;
-    margin-bottom: 15px;
-}
-
-/* Card Paragraphs */
-.course-card p,
-.resource-card p,
-.gallery-card p,
-.contact-card p {
-    font-size: 14px;
-    line-height: 1.4;
-    color: #333;
-}
-
-/* ---------------- Resource Download Button ---------------- */
-.download-btn {
-    display: inline-block;
-    margin-top: 10px;
-    text-decoration: none;
-    background-color: #0b5ed7;
-    color: white;
-    padding: 8px 15px;
-    border-radius: 8px;
-    font-weight: bold;
-    transition: background 0.3s;
-}
-
-.download-btn:hover {
-    background-color: #3390ff;
-}
-
-/* ---------------- Gallery Images ---------------- */
-.gallery-card img {
-    width: 100%;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 10px;
-    margin-bottom: 15px;
-}
-
-/* ---------------- Hero Section (Home Page) ---------------- */
-.hero {
-    padding: 60px 20px;
+nav {
+    background: #ffffff;
     text-align: center;
-    background: #d9eaff; /* soft blue hero */
+    padding: 10px;
 }
 
-.hero h2 {
-    font-size: 36px;
+nav a {
+    margin: 10px;
     color: #0b5ed7;
-    margin-bottom: 15px;
+    text-decoration: none;
+    font-weight: bold;
 }
 
-.hero p {
-    font-size: 18px;
-    color: #333;
+.hero {
+    padding: 40px;
+    text-align: center;
 }
 
-/* ---------------- Features Section (Home Page) ---------------- */
 .features {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
     gap: 20px;
-    padding: 30px 20px;
+    padding: 20px;
 }
 
-.features .box {
+.box {
     background: white;
-    padding: 25px;
-    width: 180px;
-    border-radius: 12px;
-    border: 2px solid #0b5ed7;
-    transition: transform 0.3s, box-shadow 0.3s;
+    padding: 20px;
+    border-radius: 8px;
+    width: 150px;
     text-align: center;
 }
 
-.features .box:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 8px 20px rgba(11, 94, 215, 0.3);
+.content {
+    padding: 30px;
+    text-align: center;
 }
 
-/* ---------------- Footer ---------------- */
 footer {
     background: #0b5ed7;
     color: white;
     text-align: center;
-    padding: 15px 0;
-    margin-top: 40px;
+    padding: 10px;
 }
 
-/* ---------------- Responsive ---------------- */
-@media screen and (max-width: 768px) {
-    .courses-container,
-    .resources-container,
-    .gallery-container,
-    .contact-container,
-    .features {
-        flex-direction: column;
-        align-items: center;
-    }
-}
