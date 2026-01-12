@@ -1,16 +1,16 @@
 /* ---------------- General Body & Fonts ---------------- */
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: Arial, sans-serif;
     margin: 0;
-    background: #fff0f6; /* very light pink background */
+    background: #f4f9ff; /* very light blue background */
     color: #333;
 }
 
 /* ---------------- Header ---------------- */
 header {
-    background: #ff69b4; /* bright pink */
+    background: #0b5ed7; /* deep blue */
     color: white;
-    padding: 25px 0;
+    padding: 20px;
     text-align: center;
 }
 
@@ -28,27 +28,27 @@ header p {
 nav {
     background: white;
     text-align: center;
-    padding: 12px 0;
-    border-bottom: 2px solid #ff69b4;
+    padding: 10px 0;
+    border-bottom: 2px solid #0b5ed7;
 }
 
 nav a {
     margin: 0 15px;
-    color: #ff69b4;
+    color: #0b5ed7;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: bold;
     font-size: 16px;
     transition: color 0.3s;
 }
 
 nav a:hover {
-    color: #ff85c1;
+    color: #3390ff;
 }
 
 /* ---------------- Section Titles ---------------- */
 section h2 {
     font-size: 32px;
-    color: #ff69b4;
+    color: #0b5ed7;
     margin-bottom: 30px;
     text-align: center;
 }
@@ -59,7 +59,7 @@ section h2 {
 .gallery-section,
 .contact-section {
     padding: 40px 20px;
-    background: #fff0f6;
+    background: #f4f9ff;
 }
 
 .courses-container,
@@ -78,7 +78,7 @@ section h2 {
 .gallery-card,
 .contact-card {
     background: white;
-    border: 2px solid #ff69b4;
+    border: 2px solid #0b5ed7;
     border-radius: 12px;
     width: 240px;
     padding: 20px;
@@ -92,7 +92,7 @@ section h2 {
 .gallery-card:hover,
 .contact-card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 8px 20px rgba(255, 105, 180, 0.3);
+    box-shadow: 0 8px 20px rgba(11, 94, 215, 0.3);
 }
 
 /* Card Headings */
@@ -100,7 +100,7 @@ section h2 {
 .resource-card h3,
 .gallery-card h3,
 .contact-card h3 {
-    color: #ff69b4;
+    color: #0b5ed7;
     margin-bottom: 15px;
 }
 
@@ -119,16 +119,16 @@ section h2 {
     display: inline-block;
     margin-top: 10px;
     text-decoration: none;
-    background-color: #ff69b4;
+    background-color: #0b5ed7;
     color: white;
     padding: 8px 15px;
     border-radius: 8px;
-    font-weight: 600;
+    font-weight: bold;
     transition: background 0.3s;
 }
 
 .download-btn:hover {
-    background-color: #ff85c1;
+    background-color: #3390ff;
 }
 
 /* ---------------- Gallery Images ---------------- */
@@ -144,12 +144,12 @@ section h2 {
 .hero {
     padding: 60px 20px;
     text-align: center;
-    background: #ffd6e8; /* soft pink hero */
+    background: #d9eaff; /* soft blue hero */
 }
 
 .hero h2 {
     font-size: 36px;
-    color: #ff69b4;
+    color: #0b5ed7;
     margin-bottom: 15px;
 }
 
@@ -172,19 +172,19 @@ section h2 {
     padding: 25px;
     width: 180px;
     border-radius: 12px;
-    border: 2px solid #ff69b4;
+    border: 2px solid #0b5ed7;
     transition: transform 0.3s, box-shadow 0.3s;
     text-align: center;
 }
 
 .features .box:hover {
     transform: translateY(-10px);
-    box-shadow: 0 8px 20px rgba(255, 105, 180, 0.3);
+    box-shadow: 0 8px 20px rgba(11, 94, 215, 0.3);
 }
 
 /* ---------------- Footer ---------------- */
 footer {
-    background: #ff69b4;
+    background: #0b5ed7;
     color: white;
     text-align: center;
     padding: 15px 0;
@@ -202,4 +202,3 @@ footer {
         align-items: center;
     }
 }
-
