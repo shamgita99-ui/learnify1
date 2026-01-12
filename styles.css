@@ -58,7 +58,7 @@ footer {
 
 .biodata-card .url-btn {
     display: inline-block;
-    background-color: #0b5ed7;   /* deep blue */
+    background-color: #0b5ed7;   
     color: white;
     padding: 8px 15px;
     border-radius: 6px;
@@ -69,6 +69,7 @@ footer {
 }
 
 .biodata-card .url-btn:hover {
-    background-color: #3390ff;   /* lighter blue on hover */
+    background-color: #3390ff;  
 }
+
 
