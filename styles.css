@@ -1,3 +1,4 @@
+/* ---------------- General Body & Fonts ---------------- */
 body {
     font-family: Arial;
     margin: 0;
@@ -24,16 +25,19 @@ nav a {
     font-weight: bold;
 }
 
+/* ---------------- Hero Section ---------------- */
 .hero {
     padding: 40px;
     text-align: center;
 }
 
+/* ---------------- Features Section ---------------- */
 .features {
     display: flex;
     justify-content: center;
     gap: 20px;
     padding: 20px;
+    flex-wrap: wrap;
 }
 
 .box {
@@ -42,13 +46,22 @@ nav a {
     border-radius: 8px;
     width: 150px;
     text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 
+.box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(11, 94, 215, 0.3);
+}
+
+/* ---------------- Content Section ---------------- */
 .content {
     padding: 30px;
     text-align: center;
 }
 
+/* ---------------- Footer ---------------- */
 footer {
     background: #0b5ed7;
     color: white;
@@ -56,6 +69,41 @@ footer {
     padding: 10px;
 }
 
+/* ---------------- Bio Data Card ---------------- */
+.biodata-section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.biodata-section h2 {
+    font-size: 28px;
+    color: #0b5ed7;
+    margin-bottom: 30px;
+}
+
+.biodata-card {
+    background: white;
+    border: 2px solid #0b5ed7;
+    border-radius: 12px;
+    width: 320px;
+    padding: 25px;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.6;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.biodata-card p {
+    margin: 8px 0;
+}
+
+.biodata-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(11, 94, 215, 0.3);
+}
+
+/* ---------------- Bio Data URL Button ---------------- */
 .biodata-card .url-btn {
     display: inline-block;
     background-color: #0b5ed7;   
@@ -71,5 +119,3 @@ footer {
 .biodata-card .url-btn:hover {
     background-color: #3390ff;  
 }
-
-
