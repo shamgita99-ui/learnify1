@@ -1,120 +1,70 @@
+/* ---------------- General Body & Fonts ---------------- */
 body {
-    font-family: Arial;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
-    background: #f4f9ff;
-}
-
-header {
-    background: #ff69b4; 
-    color: white;
-    padding: 20px;
-    text-align: center;
-}
-
-nav a {
-    color: #ff69b4; 
-}
-
-
-nav a {
-    margin: 10px;
-    color: #0b5ed7;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.hero {
-    padding: 40px;
-    text-align: center;
-}
-
-.features {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    padding: 20px;
-}
-
-.box {
-    background: white;
-    padding: 20px;
-    border-radius: 8px;
-    width: 150px;
-    text-align: center;
-}
-
-.content {
-    padding: 30px;
-    text-align: center;
-}
-
-footer {
-    background: #0b5ed7;
-    color: white;
-    text-align: center;
-    padding: 10px;
-}
-/* Courses Section Design */
-.courses-section {
-    padding: 40px;
-    text-align: center;
-    background: #ffe4f1; /* soft pink background */
-}
-
-.courses-section h2 {
-    font-family: 'Poppins', sans-serif;
-    font-size: 32px;
-    color: #ff69b4;
-    margin-bottom: 30px;
-}
-
-.courses-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
-.course-card {
-    background: white;
-    border: 2px solid #ff69b4;
-    border-radius: 12px;
-    padding: 25px;
-    width: 220px;
-    transition: transform 0.3s, box-shadow 0.3s;
-    font-family: 'Poppins', sans-serif;
-}
-
-.course-card h3 {
-    color: #ff69b4;
-    margin-bottom: 15px;
-}
-
-.course-card p {
+    background: #fff0f6; /* very light pink background */
     color: #333;
-    font-size: 16px;
-    line-height: 1.4;
 }
 
-/* Hover Effect */
-.course-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 8px 20px rgba(255, 105, 180, 0.3);
-}
-/* Contact Section Design */
-.contact-section {
-    padding: 40px;
+/* ---------------- Header ---------------- */
+header {
+    background: #ff69b4; /* bright pink */
+    color: white;
+    padding: 25px 0;
     text-align: center;
-    background: #ffe4f1; /* soft pink background */
 }
 
-.contact-section h2 {
-    font-family: 'Poppins', sans-serif;
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+header p {
+    margin: 5px 0 0 0;
+    font-size: 18px;
+}
+
+/* ---------------- Navigation ---------------- */
+nav {
+    background: white;
+    text-align: center;
+    padding: 12px 0;
+    border-bottom: 2px solid #ff69b4;
+}
+
+nav a {
+    margin: 0 15px;
+    color: #ff69b4;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff85c1;
+}
+
+/* ---------------- Section Titles ---------------- */
+section h2 {
     font-size: 32px;
     color: #ff69b4;
     margin-bottom: 30px;
+    text-align: center;
 }
 
+/* ---------------- Card Containers ---------------- */
+.courses-section,
+.resources-section,
+.gallery-section,
+.contact-section {
+    padding: 40px 20px;
+    background: #fff0f6;
+}
+
+.courses-container,
+.resources-container,
+.gallery-container,
 .contact-container {
     display: flex;
     justify-content: center;
@@ -122,134 +72,52 @@ footer {
     gap: 20px;
 }
 
+/* ---------------- Card Styles ---------------- */
+.course-card,
+.resource-card,
+.gallery-card,
 .contact-card {
     background: white;
     border: 2px solid #ff69b4;
     border-radius: 12px;
-    padding: 25px;
-    width: 220px;
+    width: 240px;
+    padding: 20px;
+    text-align: center;
     transition: transform 0.3s, box-shadow 0.3s;
-    font-family: 'Poppins', sans-serif;
 }
 
+/* Card Hover Effect */
+.course-card:hover,
+.resource-card:hover,
+.gallery-card:hover,
+.contact-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(255, 105, 180, 0.3);
+}
+
+/* Card Headings */
+.course-card h3,
+.resource-card h3,
+.gallery-card h3,
 .contact-card h3 {
     color: #ff69b4;
     margin-bottom: 15px;
 }
 
+/* Card Paragraphs */
+.course-card p,
+.resource-card p,
+.gallery-card p,
 .contact-card p {
-    color: #333;
-    font-size: 16px;
-    line-height: 1.4;
-}
-
-/* Hover Effect */
-.contact-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 8px 20px rgba(255, 105, 180, 0.3);
-}
-/* Gallery Section Design */
-.gallery-section {
-    padding: 40px;
-    text-align: center;
-    background: #ffe4f1; /* soft pink background */
-}
-
-.gallery-section h2 {
-    font-family: 'Poppins', sans-serif;
-    font-size: 32px;
-    color: #ff69b4;
-    margin-bottom: 30px;
-}
-
-.gallery-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
-.gallery-card {
-    background: white;
-    border: 2px solid #ff69b4;
-    border-radius: 12px;
-    width: 250px;
-    padding: 15px;
-    font-family: 'Poppins', sans-serif;
-    transition: transform 0.3s, box-shadow 0.3s;
-    text-align: center;
-}
-
-.gallery-card img {
-    width: 100%;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 10px;
-    margin-bottom: 15px;
-}
-
-.gallery-card h3 {
-    color: #ff69b4;
-    margin-bottom: 10px;
-}
-
-.gallery-card p {
-    color: #333;
     font-size: 14px;
     line-height: 1.4;
-}
-
-/* Hover Effect */
-.gallery-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 8px 20px rgba(255, 105, 180, 0.3);
-}
-/* Resources Section Design */
-.resources-section {
-    padding: 40px;
-    text-align: center;
-    background: #ffe4f1; /* soft pink background */
-}
-
-.resources-section h2 {
-    font-family: 'Poppins', sans-serif;
-    font-size: 32px;
-    color: #ff69b4;
-    margin-bottom: 30px;
-}
-
-.resources-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
-.resource-card {
-    background: white;
-    border: 2px solid #ff69b4;
-    border-radius: 12px;
-    width: 240px;
-    padding: 25px;
-    font-family: 'Poppins', sans-serif;
-    transition: transform 0.3s, box-shadow 0.3s;
-    text-align: center;
-}
-
-.resource-card h3 {
-    color: #ff69b4;
-    margin-bottom: 15px;
-}
-
-.resource-card p {
     color: #333;
-    font-size: 14px;
-    line-height: 1.4;
-    margin-bottom: 15px;
 }
 
-/* Download Button */
+/* ---------------- Resource Download Button ---------------- */
 .download-btn {
+    display: inline-block;
+    margin-top: 10px;
     text-decoration: none;
     background-color: #ff69b4;
     color: white;
@@ -263,9 +131,75 @@ footer {
     background-color: #ff85c1;
 }
 
-/* Hover Effect on Cards */
-.resource-card:hover {
+/* ---------------- Gallery Images ---------------- */
+.gallery-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* ---------------- Hero Section (Home Page) ---------------- */
+.hero {
+    padding: 60px 20px;
+    text-align: center;
+    background: #ffd6e8; /* soft pink hero */
+}
+
+.hero h2 {
+    font-size: 36px;
+    color: #ff69b4;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #333;
+}
+
+/* ---------------- Features Section (Home Page) ---------------- */
+.features {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px 20px;
+}
+
+.features .box {
+    background: white;
+    padding: 25px;
+    width: 180px;
+    border-radius: 12px;
+    border: 2px solid #ff69b4;
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+}
+
+.features .box:hover {
     transform: translateY(-10px);
     box-shadow: 0 8px 20px rgba(255, 105, 180, 0.3);
+}
+
+/* ---------------- Footer ---------------- */
+footer {
+    background: #ff69b4;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+}
+
+/* ---------------- Responsive ---------------- */
+@media screen and (max-width: 768px) {
+    .courses-container,
+    .resources-container,
+    .gallery-container,
+    .contact-container,
+    .features {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
